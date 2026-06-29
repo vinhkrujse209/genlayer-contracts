@@ -1,18 +1,21 @@
-# GenLayer Intelligent Contracts Framework
+# GenLayer Intelligent Contracts Suite
 
-This repository contains my custom-built **Intelligent Contracts** deployed on the GenLayer Testnet network. Unlike traditional smart contracts, these use advanced LLM (AI) integration to execute on-chain logic natively.
+This repository contains a collection of my custom-built and deployed **Intelligent Contracts** on the GenLayer Testnet network (Bradbury). These applications demonstrate how decentralized LLMs can execute advanced on-chain logic directly.
 
-## 🚀 Contracts Included
+## 🚀 Contracts Profile
 
 ### 1. VinhAIToken (`vinh_ai_token.py`)
-- **Type:** AI-Native Token Contract
-- **Purpose:** Manages a basic token supply while utilizing GenLayer's built-in SDK functionality to store, update, and read decentralized insights directly on-chain.
-- **Key Methods:** `update_market_insight` (Write), `get_ai_result` (View), `get_token_info` (View).
+- **Type:** AI-Native Token Protocol
+- **Purpose:** Manages a foundational token system integrated with automated cryptographic market insight updates.
 
-## 🛠️ How to Interact
+### 2. VinhAIPredictionMarket (`vinh_ai_prediction.py`)
+- **Type:** AI Decentralized Arbitration / Prediction Market
+- **Purpose:** Uses GenLayer's Subjective Consensus to process raw real-world data and allows decentralized LLM nodes to act as an on-chain judge to resolve market outcomes without external centralized oracles.
 
-1. Open the code in the [GenLayer Studio](https://studio.genlayer.com/).
-2. Run the compiler and deploy using the **GenLayer Testnet** with MetaMask.
-3. Call the `update_market_insight` write method to create an on-chain cryptographic transaction validated by decentralized AI nodes.
+## 🛠️ How to Deploy & Interact
 
-*Proudly contributing as an early Builder in the GenLayer Ecosystem!* 🧠⚡️
+1. Load either file into the [GenLayer Studio](https://studio.genlayer.com/).
+2. Compile and deploy using your connected MetaMask wallet on the Bradbury Testnet.
+3. Use the write methods to test the AI integration capabilities on-chain.
+
+*Proudly building and expanding solutions in the GenLayer Ecosystem!* 🧠⚡️
